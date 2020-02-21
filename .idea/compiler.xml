@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Gateway" />
+        <module name="configCenter" />
+        <module name="registerCenter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="register-center" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Gateway" options="-parameters" />
+      <module name="configCenter" options="-parameters" />
+      <module name="register-center" options="-parameters" />
+      <module name="registerCenter" options="-parameters" />
+      <module name="share" options="-parameters" />
+    </option>
+  </component>
+</project>
